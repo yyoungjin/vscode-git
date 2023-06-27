@@ -1,0 +1,87 @@
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* reset.css */
+ul, ol {
+    list-style: none;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  h1 {
+    font-weight: normal;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb1OBQmO2Kbz6nc6Ar6nGNaFEMyhJuI2XbPg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+
+    font-family: 'GmarketSansMedium';
+  }
+
+  #main h1 {
+    color: white;
+  }
+
+  #main {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  #countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .box {
+    margin: 0 10px;
+    font-size: 24px;
+    background-color: white;
+    padding: 36px;
+    border-radius: 40px;
+  }
+
+  .box span {
+    display: block;
+    font-size: 72px;
+  }
+
+  #goals {
+    background-color: white;
+    padding: 50px 60px;
+    border-radius: 40px;
+  }
+
+  #goals ul {
+    width: max-content;
+  }
+
+  #goals li {
+    font-size: 24px;
+    margin: 20px 0;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 10px;
+    text-decoration-color: aqua;
+  }
+
